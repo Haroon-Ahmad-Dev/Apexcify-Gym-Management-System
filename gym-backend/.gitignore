@@ -1,0 +1,49 @@
+# ===============================
+# Node.js dependencies
+# ===============================
+node_modules/
+
+# ===============================
+# Environment files (secrets)
+# ===============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Build & cache
+# ===============================
+dist/
+build/
+.cache/
+
+# ===============================
+# Coverage reports
+# ===============================
+coverage/
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor settings
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+smpt key.txt
+

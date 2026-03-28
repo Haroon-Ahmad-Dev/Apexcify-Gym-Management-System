@@ -1,0 +1,89 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background: rgba(17, 17, 17, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #e63946;
+  margin-right: 4px;
+}
+
+.logo-icon {
+  margin-right: 8px;
+  color: #e63946;
+  font-size: 22px;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-links a,
+.nav-links button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* DEFAULT LINK */
+.nav-links a:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* BUTTON STYLES */
+.btn-primary {
+  background: #e63946;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #ff4d5a;
+}
+
+.btn-outline {
+  border: 1px solid #e63946;
+  color: #e63946;
+}
+
+.btn-outline:hover {
+  background: #e63946;
+  color: white;
+}
+
+.btn-danger {
+  background: transparent;
+  border: 1px solid #ff4d5a;
+  color: #ff4d5a;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background: #ff4d5a;
+  color: white;
+}

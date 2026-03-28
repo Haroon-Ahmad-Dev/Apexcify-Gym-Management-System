@@ -1,0 +1,18 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL HEIGHT FIX */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* REMOVE DEFAULT WHITE BACKGROUND */
+body {
+  background: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
