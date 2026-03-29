@@ -7,10 +7,6 @@
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/fitness/fitness.png" alt="Gym Management Banner" width="100%" />
-</p>
-
 ---
 
 ## 🚀 Project Overview
