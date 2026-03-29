@@ -13,7 +13,7 @@
     "express",
     "mongodb"
   ],
-  "author": "",
+  "author": "HaroonAhmadDev",
   "license": "ISC",
   "description": "Gym & Fitness Center Management System Backend",
   "dependencies": {
